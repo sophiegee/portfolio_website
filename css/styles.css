@@ -1,0 +1,125 @@
+/*
+Colors used:
+Primary Color (dark blue): #423c6a
+Secondary Color (blue): #605b82
+Tertiary Color (white): #F6F2F2, opt: opacity 75%
+Gradients: 
+    background: #F6F2F2 #836272
+    button: #B6BBA3 #C1C7DE
+Highlight Colors:
+    yellow: #FCF5DB
+    light blue: #D7DBEA
+    light green: #DBE3BD
+*/
+
+body{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(#F6F2F2, #836272);
+}
+
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        line-height: 1.5;
+        letter-spacing: 2px;
+        font-weight: 400;
+        color: #423c6a;
+    }
+
+    h2 {
+        font-family: 'Anton', sans-serif;
+        font-size: 72px;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        font-weight: 900;
+        color: #423c6a;
+    }
+
+    h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        line-height: 1.5;
+        letter-spacing: 2px;
+        font-weight: 600;
+        color: #423c6a;
+    }
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 2px;
+        font-weight: 400;
+        color: #423c6a;
+    }
+
+    h3+p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        line-height: 1.5;
+        letter-spacing: 2px;
+        font-weight: 200;
+        color: #605b82;
+    }
+
+img {
+    width: 100%;
+  }
+a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #423c6a;  
+}
+a:hover,focus{
+    font-size: 18px;
+}
+a:active{
+    font-size: 18px; 
+    color: #605b82;
+}
+
+.button.nav{
+    font-weight: 400;
+    text-decoration: none;
+}
+.button.nav:hover {
+    font-weight: 600;
+}
+.button.logo{
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+.button.logo:hover {
+    font-size: 22px;
+}
+.button.cta {
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: #f6f2f2c5;
+    display: inline-block;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 48px;
+    padding-right: 48px;
+    border-radius: 200px;
+}
+.button.cta:hover {
+    font-weight: 600;
+    padding-left: 45.5px;
+    padding-right: 45.5px;
+}
+.button.impressum{
+    font-weight: 400;
+    text-decoration: none;
+}
+.button.impressum:hover {
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: underline;
+}

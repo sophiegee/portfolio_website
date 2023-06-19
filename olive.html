@@ -7,31 +7,35 @@
         <link rel="stylesheet" type="text/css" href="css/styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Loved+by+the+King&display=swap" rel="stylesheet">
         <title>Sophie Lucke, UX/UI Design/My Work/Olive</title>
     </head>
-    <body id="project">
+    <body id="project" class="project-page">
         <header>
-            <div>
-                <div>
-                    <a href="index.html" class="button logo">SOPHIE LUCKE</a>
+            <div class="container header">
+                <div class="row">
+                    <a href="index.html" class="a logo">SOPHIE LUCKE</a>
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="index.html#my work" class="button nav">my work</a></li>
-                        <li><a href="index.html#about me" class="button nav">about me</a></li>
-                        <li><a href="files/SOPHIE_LUCKE_LEBENSLAUF.pdf" target="_blank" class="button nav">resume</a></li>
-                        <li><a href="index.html#contact me" class="button nav">contact me</a></li>
+                        <li><a href="index.html#work">my work</a></li>
+                        <li><a href="index.html#about">about me</a></li>
+                        <li><a href="files/SOPHIE_LUCKE_LEBENSLAUF.pdf" target="_blank">resume</a></li>
+                        <li><a href="index.html#contact">contact me</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
-        <main>
-            <section id="title">
+        <main class="project-bg">
+            <section id="title" class="title-bg">
                 <div class="container">
                     <div class="row">
                         <div class="column">
-                            <h1>UX/UI Case Study<span class="project-name"> Olive</span><span class="project-tagline"> the healthy tamagotchi</span></h1>
+                            <h1>UX/UI Case Study</h1>
+                            <img src="img/Olive/introduction/IMG_Logo_Olive.png" alt="Olive - the healthy tamagotchi">
                             <p>An application that helps its users to organize and improve their well-being in a playful way.</p>
                         </div>
                         <div class="column">
@@ -64,7 +68,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="container" id="mockups">
+                <div class="container dark-bg" id="mockups">
                     <div class="row">                            
                         <img src="img/Olive/introduction/IMG_mockup1_1x.png" alt="Log In/Sign Up">
                         <img src="img/Olive/introduction/IMG_mockup2_1x.png" alt="Onboarding"> 
@@ -76,10 +80,10 @@
                         <img src="img/Olive/introduction/IMG_mockup8_1x.png" alt="Article">
                     </div>
                     <div class="row">
-                        <a href="olive.html#final_prototype">Click here to scroll to clickable prototype</a>
+                        <a class="a project" href="olive.html#final_prototype">Click here to scroll to clickable prototype</a>
                     </div>
                 </div>
-                <div class="container" id="skills and methods">
+                <div class="container" id="skills-and-methods">
                     <div class="row">
                         <h3>Skills and methods</h3>
                     </div>
@@ -126,7 +130,7 @@
                 </div>
             </section>
             <section id="Discover">
-                <div class="container" id="title_discover">
+                <div class="container title-bg" id="title_discover">
                     <h2>Discover</h2>
                 </div>
                 <div class="container" id="problem_and_solution">
@@ -140,12 +144,12 @@
                             <p>So for me I already saw problematic frames, that I wanted to adress in my project. From the very beginning I wanted to interpret this project into a sensitive tool, that is on the one hand holistic in its features, but on the other hand neither overwhelms the user with solutions, that are not really sustainable or healthy.</p>
                         </div>
                         <div class="column">
-                            <h4>First Problem Statement</h4>
-                            <p>Health interested people <span>need</span> a way to educate themselves about what an actually healthy lifestyle means, <span>because</span> all of those consume-orientated health devices made people confused about this topic.</p>
+                            <h4 class="notes">First Problem Statement</h4>
+                            <p class="notes green">Health interested people <span class="blue">need</span> a way to educate themselves about what an actually healthy lifestyle means, <span class="blue">because</span> all of those consume-orientated health devices made people confused about this topic.</p>
                         </div>
                     </div>
                     <div class="row">
-                        <p><span>We will know this to be true, when we see</span> that people can overview their health in the responsive web application and have better access to information and guidelines, that are scientific proven.</p>
+                        <p class="notes green"><span class="blue">We will know this to be true, when we see</span> that people can overview their health in the responsive web application and have better access to information and guidelines, that are scientific proven.</p>
                     </div>
                 </div>
                 <div class="container" id="story_and_idea">
@@ -153,24 +157,30 @@
                         <h3>#2 A Story and an idea</h3>
                     </div>
                     <div class="row">
-                        <div class="column">
-                            <p>So why not feed some chicken?</p>
-                            <p>Let's make a <br>!tamagotchi!</p>
+                        <div>
+                            <p class="notes blue" style="width: 100px; rotate: 14deg;">But what actually belongs to health?</p> 
                         </div>
-                        <div class="column">
+                        <div>
                             <h4>Have you heard of the chicken story?</h4>
                             <p>A conversation with a good friend came into my mind from some years ago. I was telling her I was often not feeling great, and she asked me what I was doing that specific day.<br>
                             After I told her my daily tasks, she fastly answered: „You did not feed all of your chicken!“<br>
                             I looked at her with big questioning eyes, when she laughed and continued: „Your health is like three chickens. One has the name 'body', one has the name 'mind' and one has the name 'soul'. For being happy and healthy you have to feed every single one of them. The body-chicken you feed with healthy food and activity. The mind-chicken you feed with education and learning something new. The soul-chicken you feed with gratefulness and family and friends.“ And indeed on that specific day when I was miserable, I did not feed those chickens.</p>
                         </div>
-                        <div class="column">
-                            <p>But what actually belongs to health?</p>
-                            <p>As the name of this project is "Olive", we create the tamagotchi as an olive tree.</p>
-                            <p>Olive<br>
-                            the healthy tamagotchi</p>
+                        <div>
+                            <p class="notes blue">So why not feed some chicken?</p>
+                        </div>
+                        <div>
+                            <p class="notes blue">Let's make a <br>!tamagotchi!</p>
+                        </div>
+                        <div>
+                            <p class="notes blue">As the name of this project is "Olive", we create the tamagotchi as an olive tree.</p>
+                        </div>
+                        <div>
+                            <p class="notes green">OLIVE<br>
+                            the healthy tamagotchi</p>                            
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row highlight-bg-blue">
                         <h4>Refined Problem Statement</h4>
                         <p>While establishing new habits can sometimes be an unattractive and demanding job, using a tamagotchi theme could be a fun and lightweight method to hold the motivation of the users high without too much moralization.</p>
                     </div>
@@ -184,22 +194,22 @@
                             <img src="img/Olive/discover/IMG_discover3_1x.png" alt="Competitors: Barmer and Fabulous">
                         </div>
                         <div class="column">
-                            <p>I also conducted a <span>competitor analysis</span>, in which I used a S.W.O.T profile  to get insights on the market’s current products. For this, I had a closer look at the native application of the health insurance “BARMER”, as well as the lifestyle and healthy habit application “Fabulous”.</p>
+                            <p>I also conducted a <span class="bold">competitor analysis</span>, in which I used a S.W.O.T profile  to get insights on the market’s current products. For this, I had a closer look at the native application of the health insurance “BARMER”, as well as the lifestyle and healthy habit application “Fabulous”.</p>
                         </div>
                     </div>
                 </div>
             </section>
             <section id="Define">
-                <div class="container" id="title_define">
+                <div class="container title-bg" id="title_define">
                     <h2>Define</h2>
                 </div>
                 <div class="container" id="persons_and_personas">
                     <h3>#1 Persons and Personas</h3>
                     <div class="row">
                         <div class="column">
-                            <p>To step out of my very own head,  I conducted 3 <span>User Interviews</span>, that took each around half an hour. For this purpose I prepared a set of questions and an <span>Interview Script</span>.</p>
-                            <p>My interviewees matched my <span>target group</span> to be in the millennial generation to ensure the potential users are familiar with the concept of a tamagotchi. I also choose this target group, as I think people in this age range begin to care about health.</p>
-                            <p>After taking the interviews, I prepared audio scripts for each participant to locate all relevant content. With the help of <span>affinity mapping</span>, I received great insights into people's wishes and concerns about a health-related digital device.</p>
+                            <p>To step out of my very own head,  I conducted 3 <span class="bold">User Interviews</span>, that took each around half an hour. For this purpose I prepared a set of questions and an <span class="bold">Interview Script</span>.</p>
+                            <p>My interviewees matched my <span class="bold">target group</span> to be in the millennial generation to ensure the potential users are familiar with the concept of a tamagotchi. I also choose this target group, as I think people in this age range begin to care about health.</p>
+                            <p>After taking the interviews, I prepared audio scripts for each participant to locate all relevant content. With the help of <span class="bold">affinity mapping</span>, I received great insights into people's wishes and concerns about a health-related digital device.</p>
                         </div>
                         <div class="column">
                             <picture>
@@ -210,34 +220,34 @@
                     </div>
                     <div class="wrapper">
                             <h4>Insights of the User Interviews</h4>
-                        <div class="row">
-                            <p><span>Health is very individual</span> from person to person, but there are similarities. It needs to be asked about the lifestyle to create meaningful content.</p>
+                        <div class="row highlight-bg-blue">
+                            <p><span class="bold">Health is very individual</span> from person to person, but there are similarities. It needs to be asked about the lifestyle to create meaningful content.</p>
                         </div>
-                        <div class="row">
-                            <p>Time is a precious asset. Users need tools and features, which help with health condictions, but do not take time. <span>The goal is to save time</span>.</p>
+                        <div class="row highlight-bg-yellow">
+                            <p>Time is a precious asset. Users need tools and features, which help with health condictions, but do not take time. <span class="bold">The goal is to save time</span>.</p>
                         </div>
-                        <div class="row">
-                            <p>There is quite a lack of knowledge and a lot of uncertainty about what is healthy and what is toxic. <span>Education is wanted and needed</span>, but in a way that is not overwhelming.</p>
+                        <div class="row highlight-bg-green">
+                            <p>There is quite a lack of knowledge and a lot of uncertainty about what is healthy and what is toxic. <span class="bold">Education is wanted and needed</span>, but in a way that is not overwhelming.</p>
                         </div>
                     </div>
                     <div class="wrapper">
                         <h4>Creating Personas</h4>
                         <div class="row">
                             <div class="column">
-                                <picture>
+                                <p class="notes blue">I have to admit this was one of my most favourite tasks in the process.<br>
+                                Who would have thought my love to create shiny background stories for strangers would increase into a professional skill.</p>
+                                <picture class="img-decoration">
                                     <source srcset="img/Olive/define/IMG_define_persona1_1x.png" media="(max-width:767px)">
                                     <img src="img/Olive/define/IMG_define_persona1_2x.png" alt="Persona Sandra">
                                 </picture>
-                                <p>But as much as I like both personas, I decided to make <span>Sandra to my main persona</span>.</p>
+                                <p class="notes blue">But as much as I like both personas, I decided to make <span class="green">Sandra to my main persona</span>.</p>
                             </div>
                             <div class="column">
-                                <p>I have to admit this was one of my most favourite tasks in the process.<br>
-                                Who would have thought my love to create shiny background stories for strangers would increase into a professional skill.</p>
                                 <picture>
                                     <source srcset="img/Olive/define/IMG_define_persona2_1x.png" media="(max-width:767px)">
                                     <img src="img/Olive/define/IMG_define_persona2_2x.png" alt="Persona Timo">
                                 </picture>
-                                <p>Nevertheless Timo's needs should stay in my mind, as he reminds me to keep the application as optional as possible.</p>
+                                <p class="notes blue">Nevertheless Timo's needs should stay in my mind, as he reminds me to keep the application as optional as possible.</p>
                             </div>
                         </div>
                     </div>
@@ -260,7 +270,7 @@
                 </div>          
             </section>
             <section id="Ideate">
-                <div class="container" id="title_ideate">
+                <div class="container title-bg" id="title_ideate">
                     <h2>Ideate</h2>
                 </div>
                 <div class="container" id="sitemap">
@@ -298,25 +308,25 @@
                         </div>
                         <div class="column">
                             <p>As my father - a passionate chef - use to say:</p>
-                            <p>Hört!Hört!</p>
-                            <p>It is better to have less of a good sauce, than to have much of a bad sauce.</p>
+                            <p class="notes blue">Hört!Hört!</p>
+                            <p class="notes green">It is better to have less of a good sauce, than to have much of a bad sauce.</p>
                         </div>
                     </div> 
                 </div>
             </section>
             <section id="Design">
-                <div class="container" id="title_design">
+                <div class="container title-bg" id="title_design">
                     <h2>Design</h2>
                 </div>
                 <div class="container" id="low_fidelity_wireframes">
                     <h3>#1 Low fidelity Wireframes</h3>
                     <div class="row">
                         <div class="column">
-                            <p>The most challenging part of this process was to <span>visualize my ideas</span>, which already worked well in sitemaps, user flows, etc., in sketched wireframes.</p>
-                            <p>Especially how every feature would surround the healthy tree tamagotchi was a major question. I <span>created several wireframes</span> to help me make a good decision.</p>
+                            <p>The most challenging part of this process was to <span class="bold">visualize my ideas</span>, which already worked well in sitemaps, user flows, etc., in sketched wireframes.</p>
+                            <p>Especially how every feature would surround the healthy tree tamagotchi was a major question. I <span class="bold">created several wireframes</span> to help me make a good decision.</p>
                         </div>
                         <div class="column">
-                            <p>In all options, the health tree would symbolize the health of the user and also would work as the <span>navigation pattern</span>, as every branch should represent another feature/part of the user's health and should be clickable to lead to another page.</p>
+                            <p>In all options, the health tree would symbolize the health of the user and also would work as the <span class="bold">navigation pattern</span>, as every branch should represent another feature/part of the user's health and should be clickable to lead to another page.</p>
                         </div>
                     </div>
                     <div class="row">
@@ -326,8 +336,8 @@
                                 <source srcset="img/Olive/design/IMG_design_opt1_1x.png" media="(max-width:767px)">
                                 <img src="img/Olive/design/IMG_design_opt1_2x.png" alt="Navigation Pattern Option 1">
                             </picture>
-                            <p><span>pro</span> bottom navigation pattern is common and familiar</p>
-                            <p><span>contra</span> the health tree as the center of the device would become obsolete.</p>
+                            <p><span class="bold">pro</span> bottom navigation pattern is common and familiar</p>
+                            <p><span class="bold">contra</span> the health tree as the center of the device would become obsolete.</p>
                         </div>
                         <div class="column">
                             <picture>
@@ -338,19 +348,19 @@
                     </div>
                     <div class="row">
                         <div class="column">
-                            <picture>
-                                <source srcset="img/Olive/design/IMG_design_arrow2_1x.png" media="(max-width:767px)">
-                                <img src="img/Olive/design/IMG_design_arrow2_2x.png" alt="Arrow">
-                            </picture>
-                        </div>
-                        <div class="column">
                             <h4>Option 2</h4>
                             <picture>
                                 <source srcset="img/Olive/design/IMG_design_opt2_1x.png" media="(max-width:767px)">
                                 <img src="img/Olive/design/IMG_design_opt2_2x.png" alt="Navigation Pattern Option 2">
                             </picture>
-                            <p><span>pro</span> bottom navigation pattern in form of the health tree tamagotchi</p>
-                            <p><span>contra</span> this would take a lot of precious space</p>
+                            <p><span class="bold">pro</span> bottom navigation pattern in form of the health tree tamagotchi</p>
+                            <p><span class="bold">contra</span> this would take a lot of precious space</p>
+                        </div>
+                        <div class="column">
+                            <picture>
+                                <source srcset="img/Olive/design/IMG_design_arrow2_1x.png" media="(max-width:767px)">
+                                <img src="img/Olive/design/IMG_design_arrow2_2x.png" alt="Arrow">
+                            </picture>
                         </div>
                     </div>
                     <div class="row">
@@ -360,8 +370,8 @@
                                 <source srcset="img/Olive/design/IMG_design_opt3_1x.png" media="(max-width:767px)">
                                 <img src="img/Olive/design/IMG_design_opt3_2x.png" alt="Navigation Pattern Option 3">
                             </picture>
-                            <p><span>pro</span> health tree as navigation pattern is in the heading and slideable for space saving purpose</p>
-                            <p><span>contra</span> the navigation at the head would make it harder to reach</p>
+                            <p><span class="bold">pro</span> health tree as navigation pattern is in the heading and slideable for space saving purpose</p>
+                            <p><span class="bold">contra</span> the navigation at the head would make it harder to reach</p>
                         </div>
                         <div class="column">
                             <picture>
@@ -421,15 +431,15 @@
                 </div>
             </section>
             <section id="Test">
-                <div class="container" id="title_test">
+                <div class="container title-bg" id="title_test">
                     <h2>Test</h2>
                 </div>
                 <div class="container" id="usability_tests">
                     <h3>#1 Conducting Usability Tests</h3>
                     <div class="row">
                         <div class="column">
-                            <p>The test was using moderated test methodology optionally in-person, but also remotely. The Test included a short <span>briefing</span>, a <span>task performance</span> of OLIVE on a mobile app, and a <span>follow-up questionnaire</span>.</p>
-                            <p>The usability test required <span>6 participants</span>. The participants ideally were in the age range of 27-40 years old, have used a tamagotchi before, and were located in Germany. Participants for the moderated remote tests were recruited from the personal network of the researcher by e-mail or messenger. Participants for the moderated in-person tests were recruited with „Hallway Testing“.</p>
+                            <p>The test was using moderated test methodology optionally in-person, but also remotely. The Test included a short <span class="bold">briefing</span>, a <span class="bold">task performance</span> of OLIVE on a mobile app, and a <span class="bold">follow-up questionnaire</span>.</p>
+                            <p>The usability test required <span class="bold">6 participants</span>. The participants ideally were in the age range of 27-40 years old, have used a tamagotchi before, and were located in Germany. Participants for the moderated remote tests were recruited from the personal network of the researcher by e-mail or messenger. Participants for the moderated in-person tests were recruited with „Hallway Testing“.</p>
                         </div>
                         <div class="column">
                             <ul>
@@ -449,24 +459,24 @@
                     <h3>#2 Test results</h3>
                     <div class="wrapper">
                         <div class="row">
-                            <div class="column">
+                            <div class="column highlight-bg-blue">
                                 <h4>ISSUE 1</h4>
                                 <p>Meaning of the category icons is not clear.</p>
                             </div>
-                            <div class="column">
+                            <div class="column highlight-bg-yellow">
                                 <h4>ISSUE 2</h4>
                                 <p>Home Button is not used.</p>
                             </div>
-                            <div class="column">
+                            <div class="column highlight-bg-green">
                                 <h4>ISSUE 3</h4>
                                 <p>“Add Appointment”-Task Flow is unclear.</p>
                             </div>
-                            <div class="column">
+                            <div class="column highlight-bg-blue">
                                 <h4>ISSUE 4</h4>
                                 <p>Hierarchiy of Education Header is disharmonic.</p>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row highlight-bg-yellow">
                             <h4>Conclusion</h4>
                             <p>The usability test required 6 participants. The participants ideally were in the age range of 27-40 years old, have used a tamagotchi before and were located in Germany. Participants for the moderated remote tests were recruited from the personal network from the researcher by e-mail or a messenger. Participants for the moderated in-person tests were recruited with „Hallway Testing“.</p>
                         </div>
@@ -480,7 +490,7 @@
                 </div>
             </section>
             <section id="Refine">
-                <div class="container" id="tile_refine">
+                <div class="container title-bg" id="tile_refine">
                     <h2>Refine</h2>
                 </div>
                 <div class="container" id="iterations">
@@ -489,12 +499,12 @@
                         <div class="column">
                             <h4>Reworking the Navigation Pattern</h4>
                             <p>One observation in the usability testings were the participants were looking for a home button in the heading of the screen. Therefore nearly all of the participants used a path with the back button to reach the home screen.</p>
-                            <p>By bringing the actual <span>home button to the head of screen</span> I went after the intuition of my participants. In the next step I reworked the task flows and was able to <span>remove the back button</span>, so the user only has the option to use the actual home button. This simplified the user flow immense and ensured a frictionless usability. By downsizing the button and bring it to the left corner of the screen I also won more spacing in the header, which allowed me to <span>add a heading with the category and icon</span>.</p>
+                            <p>By bringing the actual <span class="bold">home button to the head of screen</span> I went after the intuition of my participants. In the next step I reworked the task flows and was able to <span class="bold">remove the back button</span>, so the user only has the option to use the actual home button. This simplified the user flow immense and ensured a frictionless usability. By downsizing the button and bring it to the left corner of the screen I also won more spacing in the header, which allowed me to <span class="bold">add a heading with the category and icon</span>.</p>
                             <p>With the new iterations I reacted on issue 1 and issue 2 of the usability tests.</p>
                         </div>
                         <div class="column">                                
-                            <img src="img/Olive/refine/IMG_refine_iteration_nav1_1x.png" alt="Reworked Navigation Pattern">
-                            <img src="img/Olive/refine/IMG_refine_iteration_nav2_1x.png" alt="Reworked Navigation Pattern">
+                            <img src="img/Olive/refine/IMG_refine_iteration_nav1_1x.png" alt="Reworked Navigation Pattern" class="iteration-imagery">
+                            <img src="img/Olive/refine/IMG_refine_iteration_nav2_1x.png" alt="Reworked Navigation Pattern" class="iteration-imagery">
                         </div>
                     </div>
                     <div class="row">
@@ -506,14 +516,14 @@
                         <div class="column">
                             <h4>Reworking the CTA</h4>
                             <p>For the task to “follow a recommendation my participants communicated a insecurity about what actions need to be made.</p>
-                            <p>As a solution for this issue I <span>redesigned the CTA button</span> and also <span>added a clear language</span> for the CTA.</p>
+                            <p>As a solution for this issue I <span class="bold">redesigned the CTA button</span> and also <span class="bold">added a clear language</span> for the CTA.</p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="column">
                             <h4>Redesigning the Education Header</h4>
                             <p>Participants were using firstly the category slide which shows popular topics to find special content.</p>
-                            <p>Eventhough this is not a problem, but I decided to create a more <span>equal color scheme</span> with the search bar and the slide option. This <span>showcases the hierarchy</span> of this page better.</p>
+                            <p>Eventhough this is not a problem, but I decided to create a more <span class="bold">equal color scheme</span> with the search bar and the slide option. This <span>showcases the hierarchy</span> of this page better.</p>
                         </div>
                         <div class="column">
                             <img src="img/Olive/refine/IMG_refine_iteration_edu-header_1x.png" alt="Reworked Education Header">
@@ -536,7 +546,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <p>By adding <span>Visual Design Principles</span>, the guidelines of <span>Material Design</span> and Emotional Design, as well as grids and <span>accessibility</span> principles I evolved a clear and intuitive appointment form.
+                        <p>By adding <span class="bold">Visual Design Principles</span>, the guidelines of <span class="bold">Material Design</span> and Emotional Design, as well as grids and <span class="bold">accessibility</span> principles I evolved a clear and intuitive appointment form.
                         </p>
                     </div>
                     <h4>UI Elements of the final appointment form</h4>
@@ -557,7 +567,7 @@
                 </div>
             </section>
             <section id="Deliver">
-                <div class="container" id="tile_deliver">
+                <div class="container title-bg" id="tile_deliver">
                     <h2>Deliver</h2>
                 </div>
                 <div class="container" id="design_documentation">
@@ -585,7 +595,7 @@
                         <div class="column">
                             <div>
                                 <div>
-                                    <img src="img/Olive/deliver/IMG_deliver_finalcomment_1x.png" alt="Do you remember Sandra?">
+                                    <p class="notes yellow" style="text-align: center;">Do you <br>remember Sandra?</p>
                                 </div>
                                 <div>
                                     <img src="img/Olive/deliver/IMG_deliver_finalsandra_1x.png" alt="Persona Sandra">
@@ -603,12 +613,12 @@
                 </div>        
             </section>
             <section id="Finish">
-                <div class="container" id="title_finish">
+                <div class="container title-bg" id="title_finish">
                     <h2>What else?</h2>
                 </div>
                 <div class="container" id="what_else">
                     <div class="row">
-                        <div class="column">
+                        <div class="column" style="margin-bottom: 48px;">
                             <h3>What now?</h3>
                             <p>As I mentioned earlier, what I do really love about this concept is the seemingly endless amount of possibilities that can be added in this product. But before ideating even more features and tools for this device, the product need to be finished in its basic concept.</p>
                             <p>Next steps for a further developement would be:</p>
@@ -622,35 +632,37 @@
                         </div>
                         <div class="column">
                             <h3>Think further...</h3>
-                            <p>If I allow myself to conceptualize this product even further, I think the keyword <span>“accessiblity”</span> would come into my mind.</p>
-                            <p>The original product does not ask very much about the user's profile, to allow the Timo-Personas under us fast access to the app. But by using the medical area the user would be asked about a <span>medical profile to ensure personalized recommendations</span>.</p>
-                            <p>This profile can even include the possibility to <span>change the feature selection</span> that the heath tree offers. What if one persona suffers from OCD or depression, are there methods that would provenly help such users? </p>
+                            <p>If I allow myself to conceptualize this product even further, I think the keyword <span class="bold">“accessiblity”</span> would come into my mind.</p>
+                            <p>The original product does not ask very much about the user's profile, to allow the Timo-Personas under us fast access to the app. But by using the medical area the user would be asked about a <span class="bold">medical profile to ensure personalized recommendations</span>.</p>
+                            <p>This profile can even include the possibility to <span class="bold">change the feature selection</span> that the heath tree offers. What if one persona suffers from OCD or depression, are there methods that would provenly help such users? </p>
                             <p>Or: Should branches be addable or removable? How far can the health tree grow? Should the application start with a small plant at first? What else rewarding could be implemented instead of the shown animations?</p>
                         </div>
                     </div>
                 </div>
-                <div class="container" id="thankyou">
+                <div class="container dark-bg" id="thankyou">
                     <h2>THAT'S IT!</h2>
                     <p>Thank you very much for reading about my case study.<br>
                         I would love to contribute on more inspiring projects, so let's work together!</p>
                 </div>
         </main>
         <footer>
-            <div>
+            <div class="container" style="margin-top: 48px;">
                 <h2>contact me</h2>
                 <p>Thank you for visiting my portfolio! If you like my work, feel free to</p>
-                <div>
-                    <a href="mailto:mail@sophielucke.de" class="button cta">send me a mail</a>
+                <div class="row">
+                    <a href="mailto:mail@sophielucke.de" class="a cta">send me a mail</a>
                 </div>
-                <div>
+                <div class="row">
                     <p>or reach out to me on</p>
                     <a href="https://www.linkedin.com/in/sophie-lucke/" target="_blank">
-                        <svg enable-background="new 0 0 100 100" height="48px" id="Layer_1" version="1.1" viewBox="0 0 100 100" width="100px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M49.74,95.866c25.352,0,45.977-20.625,45.977-45.978S75.092,3.911,49.74,3.911   c-25.353,0-45.979,20.625-45.979,45.978S24.387,95.866,49.74,95.866z M49.74,5.911c24.249,0,43.977,19.728,43.977,43.978   S73.989,93.866,49.74,93.866c-24.25,0-43.979-19.728-43.979-43.978S25.49,5.911,49.74,5.911z" fill="#0087AF"/><path d="M37.578,39.772h-9.115c-0.552,0-1,0.448-1,1v29.446c0,0.552,0.448,1,1,1h9.115c0.552,0,1-0.448,1-1V40.772   C38.578,40.22,38.13,39.772,37.578,39.772z M36.578,69.218h-7.115V41.772h7.115V69.218z" fill="#0087AF"/><path d="M43.406,71.218h8.742c0.552,0,1-0.448,1-1V54.761c0-2.557,0.79-5.605,4.553-5.605   c0.98,0,3.963,0,3.963,5.605v15.458c0,0.552,0.448,1,1,1h9.07c0.552,0,1-0.448,1-1V51.574c0-7.953-4.379-12.701-11.713-12.701   c-3.765,0-6.324,1.602-7.873,3.061v-1.161c0-0.552-0.448-1-1-1h-8.742c-0.552,0-1,0.448-1,1v29.446   C42.406,70.771,42.854,71.218,43.406,71.218z M44.406,41.772h6.742v2.965c0,0.458,0.311,0.857,0.755,0.969   c0.446,0.115,0.908-0.091,1.125-0.494c0.023-0.043,2.41-4.34,7.993-4.34c6.173,0,9.713,3.9,9.713,10.701v17.644h-7.07V54.761   c0-6.617-3.736-7.605-5.963-7.605c-4.104,0-6.553,2.843-6.553,7.605v14.458h-6.742V41.772z" fill="#0087AF"/><path d="M32.977,37.916c3.523,0,6.39-2.886,6.39-6.433c0-3.547-2.866-6.433-6.39-6.433s-6.39,2.886-6.39,6.433   C26.587,35.03,29.453,37.916,32.977,37.916z M32.977,27.05c2.42,0,4.39,1.988,4.39,4.433s-1.969,4.433-4.39,4.433   s-4.39-1.989-4.39-4.433S30.556,27.05,32.977,27.05z" fill="#0087AF"/></g></svg>
+                        <svg width="28" height="28" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M26.6667 13.3333C29.3189 13.3333 31.8625 14.3868 33.7378 16.2622C35.6132 18.1375 36.6668 20.6811 36.6668 23.3333V34.9999H30.0001V23.3333C30.0001 22.4492 29.6489 21.6014 29.0238 20.9762C28.3987 20.3511 27.5508 19.9999 26.6667 19.9999C25.7827 19.9999 24.9348 20.3511 24.3097 20.9762C23.6846 21.6014 23.3334 22.4492 23.3334 23.3333V34.9999H16.6667V23.3333C16.6667 20.6811 17.7203 18.1375 19.5957 16.2622C21.471 14.3868 24.0146 13.3333 26.6667 13.3333V13.3333Z" stroke="#F6F2F2" stroke-width="3.33" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M9.99992 15H3.33325V35H9.99992V15Z" stroke="#F6F2F2" stroke-width="3.33" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M6.66658 9.99992C8.50753 9.99992 9.99992 8.50753 9.99992 6.66658C9.99992 4.82564 8.50753 3.33325 6.66658 3.33325C4.82564 3.33325 3.33325 4.82564 3.33325 6.66658C3.33325 8.50753 4.82564 9.99992 6.66658 9.99992Z" stroke="#F6F2F2" stroke-width="3.33" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>                      
                     </a>
                 </div>
-            </div>
-            <div>
-                <p>© Sophie Lucke 2023 I <a href="impressum.html">Impressum</a></p>
+                <p class="footline">© Sophie Lucke 2023 I <a href="impressum.html" class="a impressum blue">Impressum</a></p>
             </div>
         </footer>
     </body>

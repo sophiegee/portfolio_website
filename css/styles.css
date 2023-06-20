@@ -351,6 +351,7 @@ footer {
 nav > ul {
     list-style-type: none;
     padding: 0;
+    margin-bottom: 8px;
 }
 nav > ul > li {
     display: inline-block;
@@ -438,8 +439,22 @@ main {
     display: flex;
     overflow-x: auto;
 }
+/*===============================
+Medium devices (480px and larger)
+============================== */
 
-@media (min-width:768px) {
+/*===============================
+Large devices (768px and larger)
+============================== */
+@media only-screen and (min-width:768px) {
+    header {
+        text-align: unset;
+    }
+    nav {
+        width: auto;
+        float: right;
+        margin-top: 4px;
+    }
     .hide {
         display: block;
     }
@@ -447,3 +462,6 @@ main {
         flex-direction: row;
     }
 }
+/*=====================================
+Extra Large devices (1024px and larger)
+==================================== */

@@ -206,6 +206,7 @@ body{
 
 #skills-and-methods h3 {
     margin-bottom: 12px;
+    margin-top: 48px;
 }
 
 #skills-and-methods p {
@@ -312,10 +313,21 @@ a.impressum.blue {
 }
 
 a.project {
-    width: 120px;
-    height: 120px;
-    border-radius: 60px;
-    background-image: linear-gradient(120deg, #B6BBA3, #C1C7DE);
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    display: flex;
+    background-image: radial-gradient(circle farthest-corner at 0% 0%, #b6bba3 45%, #c1c7de);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: -75px 0;
+    position: relative;
+    left: 50%;
+    transform: rotate(20deg);
+    color: #F6F2F2;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 
 .footline {
@@ -328,6 +340,7 @@ a.project {
 header {
     background-color: #f6f2f2ec;
     position: fixed;
+    width: 100%;
 }
 .container.header {
     padding-bottom: 0;
@@ -366,7 +379,7 @@ main {
     flex-direction: column;
     margin: 12px 0px;
 }
-.project-card:hover {
+.project-card:hover .read-more {
     text-decoration: underline;
 }
 .read-more {
@@ -416,7 +429,16 @@ main {
 .img-decoration {
     border-radius: 2%;
     box-shadow: 4px 6px 24px 0px #423c6a50;
+    display: block;
 }
+#mockups {
+    padding: 24px 0px;
+}
+#mockups .row {
+    display: flex;
+    overflow-x: auto;
+}
+
 @media (min-width:768px) {
     .hide {
         display: block;

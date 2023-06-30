@@ -32,14 +32,14 @@
         <main>
             <section id="title" class="title-bg">
                 <div class="container">
-                    <div class="row-flex">
+                    <div class="row-flex project-title">
                         <div class="column col-md-6 vertical-centered gap-24">
                             <h1>UX/UI Case Study</h1>
                             <img src="img/Olive/introduction/IMG_Logo_Olive.png" alt="Olive - the healthy tamagotchi">
                             <p>An application that helps its users to organize and improve their well-being in a playful way.</p>
                         </div>
-                        <div class="column col-md-6">
-                            <picture>
+                        <div class="column col-md-6 flex-center">
+                            <picture class="col-md-9">
                                 <source srcset="img/home/IMG_olive_title_1x.png" media="(max-width:767px)">
                                 <img src="img/home/IMG_olive_title_2x.png" alt="Olive - the healthy tamagotchi">
                             </picture>
@@ -145,43 +145,47 @@
                             <p>And I thought: Please not another self-optimization tool, that seems to help but actually just makes the user feel miserable. Does the world need another calorie tracker?</p>
                             <p>So for me I already saw problematic frames, that I wanted to adress in my project. From the very beginning I wanted to interpret this project into a sensitive tool, that is on the one hand holistic in its features, but on the other hand neither overwhelms the user with solutions, that are not really sustainable or healthy.</p>
                         </div>
-                        <div class="column col-md-6 vertical-centered">
-                            <h4 class="notes">First Problem Statement</h4>
-                            <p class="notes green">Health interested people <span class="blue">need</span> a way to educate themselves about what an actually healthy lifestyle means, <span class="blue">because</span> all of those consume-orientated health devices made people confused about this topic.</p>
+                        <div class="column col-md-6 flex-center">
+                            <div class="written-notes">
+                                <h4 class="notes">First Problem Statement</h4>
+                                <p class="notes green">Health interested people <span class="blue">need</span> a way to educate themselves about what an actually healthy lifestyle means, <span class="blue">because</span> all of those consume-orientated health devices made people confused about this topic.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="row big-pic">
-                        <p class="notes green"><span class="blue">We will know this to be true, when we see</span> that people can overview their health in the responsive web application and have better access to information and guidelines, that are scientific proven.</p>
+                    <div class="row written-notes">
+                        <p class="notes green row"><span class="blue">We will know this to be true, when we see</span> that people can overview their health in the responsive web application and have better access to information and guidelines, that are scientific proven.</p>
                     </div>
                 </div>
                 <div class="container" id="story_and_idea">
                     <div class="row">
                         <h3>#2 A Story and an idea</h3>
                     </div>
-                    <div class="row">
-                        <div>
-                            <p class="notes blue" style="width: 150px; rotate: 14deg;display: inline-block;">But what actually belongs to health?</p> 
-                        </div>
-                        <div class="flex-center">
-                            <div class="half">
+                    <div class="row-flex">
+                        <div class="col-md-6">
+                            <div class="block-right">
+                                <p class="notes blue" style="width: 150px; rotate: 14deg;display: inline-block;">But what actually belongs to health?</p> 
+                            </div>
                             <h4>Have you heard of the chicken story?</h4>
                             <p>A conversation with a good friend came into my mind from some years ago. I was telling her I was often not feeling great, and she asked me what I was doing that specific day.<br>
                             After I told her my daily tasks, she fastly answered: „You did not feed all of your chicken!“<br>
                             I looked at her with big questioning eyes, when she laughed and continued: „Your health is like three chickens. One has the name 'body', one has the name 'mind' and one has the name 'soul'. For being happy and healthy you have to feed every single one of them. The body-chicken you feed with healthy food and activity. The mind-chicken you feed with education and learning something new. The soul-chicken you feed with gratefulness and family and friends.“ And indeed on that specific day when I was miserable, I did not feed those chickens.</p>
+                        </div>
+                        <div class="col-md-6 flex-center">
+                            <div class="written-notes">
+                                <div>
+                                    <p class="notes blue" style="display: inline-block; rotate: -20deg;">So why not<br>feed some chicken?</p>
+                                </div>
+                                <div style="display: flex; justify-content: right;">
+                                    <p class="notes blue" style="display: inline-block; rotate: 14deg;">Let's make a <br>!tamagotchi!</p>
+                                </div>
+                                <div>
+                                    <p class="notes blue" style="display: inline-block; rotate: -14deg;">As the name of<br>this project is "Olive",<br>we create the tamagotchi<br>as an olive tree.</p>
+                                </div>
+                                <div style="display: flex; justify-content: center;">
+                                    <p class="notes green" style="display: inline-block; text-align: center;">OLIVE<br>
+                                    the healthy tamagotchi</p>                            
+                                </div>   
                             </div>
-                        </div>
-                        <div>
-                            <p class="notes blue">So why not feed some chicken?</p>
-                        </div>
-                        <div>
-                            <p class="notes blue">Let's make a <br>!tamagotchi!</p>
-                        </div>
-                        <div>
-                            <p class="notes blue">As the name of this project is "Olive", we create the tamagotchi as an olive tree.</p>
-                        </div>
-                        <div>
-                            <p class="notes green">OLIVE<br>
-                            the healthy tamagotchi</p>                            
                         </div>
                     </div>
                     <div class="row highlight-bg-blue big-pic">
@@ -194,10 +198,10 @@
                         <h3>#3 One Competitor and another one</h3>
                     </div>
                     <div class="row-flex">
-                        <div class="column col-md-3 vertical-centered">
+                        <div class="column col-md-3 flex-center">
                             <img src="img/Olive/discover/IMG_discover3_1x.png" alt="Competitors: Barmer and Fabulous">
                         </div>
-                        <div class="column col-md-9 vertical-centered">
+                        <div class="column col-md-9 flex-center">
                             <p>I also conducted a <span class="bold">competitor analysis</span>, in which I used a S.W.O.T profile  to get insights on the market’s current products. For this, I had a closer look at the native application of the health insurance “BARMER”, as well as the lifestyle and healthy habit application “Fabulous”.</p>
                         </div>
                     </div>
@@ -210,12 +214,12 @@
                 <div class="container" id="persons_and_personas">
                     <h3>#1 Persons and Personas</h3>
                     <div class="row-flex">
-                        <div class="column col-md-6 vertical-centered">
+                        <div class="column col-md-6 flex-center">
                             <p>To step out of my very own head,  I conducted 3 <span class="bold">User Interviews</span>, that took each around half an hour. For this purpose I prepared a set of questions and an <span class="bold">Interview Script</span>.</p>
                             <p>My interviewees matched my <span class="bold">target group</span> to be in the millennial generation to ensure the potential users are familiar with the concept of a tamagotchi. I also choose this target group, as I think people in this age range begin to care about health.</p>
                             <p>After taking the interviews, I prepared audio scripts for each participant to locate all relevant content. With the help of <span class="bold">affinity mapping</span>, I received great insights into people's wishes and concerns about a health-related digital device.</p>
                         </div>
-                        <div class="column col-md-6 vertical-centered">
+                        <div class="column col-md-6 flex-center">
                             <picture>
                                 <source srcset="img/Olive/define/IMG_define1_2x.png" media="(max-width:767px)">
                                 <img src="img/Olive/define/IMG_define1_1x.png" alt="3 interviewees">
@@ -236,27 +240,33 @@
                     </div>
                     <div class="wrapper">
                         <h4>Creating Personas</h4>
-                        <div class="row">
-                                <p class="notes blue">I have to admit this was one of my most favourite tasks in the process.<br>
+                        <div class="block-right">
+                            <div class="half">
+                              <p class="notes blue written-notes">I have to admit this was one of my most favourite tasks in the process.<br>
                                 Who would have thought my love to create shiny background stories for strangers would increase into a professional skill.</p>
+                          </div>
                         </div>
-                        <div class="row">
-                            <div class="column">
-                                <picture class="img-decoration">
+                        <div class="row-flex">
+                            <div class="column col-md-6">
+                                <picture>
                                     <source srcset="img/Olive/define/IMG_define_persona1_1x.png" media="(max-width:767px)">
                                     <img src="img/Olive/define/IMG_define_persona1_2x.png" alt="Persona Sandra">
                                 </picture>
                             </div>
-                            <div class="column"> 
+                            <div class="column col-md-6"> 
                                 <picture>
                                     <source srcset="img/Olive/define/IMG_define_persona2_1x.png" media="(max-width:767px)">
                                     <img src="img/Olive/define/IMG_define_persona2_2x.png" alt="Persona Timo">
                                 </picture>                                                              
                             </div>
                         </div>
-                        <div class="row">
-                            <p class="notes blue">But as much as I like both personas, I decided to make <span class="green">Sandra to my main persona</span>.</p>
-                            <p class="notes blue">Nevertheless Timo's needs should stay in my mind, as he reminds me to keep the application as optional as possible.</p>
+                        <div class="row-flex">
+                            <div class="col-md-6">  
+                                <p class="notes blue written-notes">But as much as I like both personas, I decided to make <span class="green">Sandra to my main persona</span>.</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p class="notes blue written-notes">Nevertheless Timo's needs should stay in my mind, as he reminds me to keep the application as optional as possible.</p>
+                            </div>
                         </div>
                     </div>
                 </div>  
@@ -266,7 +276,7 @@
                         <source srcset="img/Olive/define/IMG_define3_userjourney_1x.png" media="(max-width:767px)">
                         <img src="img/Olive/define/IMG_define3_userjourney_2x.png" alt="User Journey">
                     </picture>
-                    <picture>
+                    <picture class="big-pic">
                         <source srcset="img/Olive/define/IMG_define2_taskanalyses_1x.png" media="(max-width:767px)">
                         <img src="img/Olive/define/IMG_define2_taskanalyses_2x.png" alt="Task Analyses">
                     </picture>
@@ -295,11 +305,11 @@
                 <div class="container" id="card_sorting">
                     <h3>#2 Card Sorting</h3>
                     <div class="row-flex">
-                        <div class="column col-md-6 vertical-centered">
+                        <div class="column col-md-6 flex-center">
                             <p>After the big challenge to collect all features that shall find a place in this overall concept of a health and wellbeing app, the next step was to sort those features and also to create a simple and intuitive path to get to a list of features.</p>
                             <p>The card sorting also revealed the participants had very different feelings to group the features into categories. It went from only two groups to five groups. This gave me the freedom to sort the features customized to the health tree and in which scenario it was better to use more categories.</p>
                         </div>
-                        <div class="column col-md-6 vertical-centered">
+                        <div class="column col-md-6 flex-center">
                            <picture>
                                 <source srcset="img/Olive/ideate/IMG_ideate2_cardsort_1x.png" media="(max-width:767px)">
                                 <img src="img/Olive/ideate/IMG_ideate2_cardsort_2x.png" alt="Cardsort">
@@ -309,7 +319,7 @@
                 </div>
                 <div class="container" id="refined_sitemap">
                     <h3>#3 Refined Sitemap</h3>
-                    <picture>
+                    <picture class="big-pic">
                         <source srcset="img/Olive/ideate/IMG_ideate3_sitemap_1x.png" media="(max-width:767px)">
                         <img src="img/Olive/ideate/IMG_ideate3_sitemap_2x.png" alt="Refined Sitemap">
                     </picture>
@@ -320,8 +330,12 @@
                         </div>
                         <div class="column col-md-6">
                             <p>As my father - a passionate chef - use to say:</p>
-                            <p class="notes blue">Hört!Hört!</p>
-                            <p class="notes green">It is better to have less of a good sauce, than to have much of a bad sauce.</p>
+                            <div class="written-notes">
+                                <div style="display: flex; flex-direction: row; justify-content: right;">
+                                    <p class="notes blue" style="display: inline-block; rotate: 20deg;">Hört!Hört!</p>
+                                </div>
+                                <p class="notes green" style="margin-top: 0;">It is better to have less of a good sauce, than to have much of a bad sauce.</p>
+                            </div>
                         </div>
                     </div> 
                 </div>
@@ -351,24 +365,24 @@
                             <p><span class="bold">pro</span> bottom navigation pattern is common and familiar</p>
                             <p><span class="bold">contra</span> the health tree as the center of the device would become obsolete.</p>
                         </div>
-                        <div class="column col-md-6 vertical-centered">
+                        <div class="column col-md-6 flex-center">
                             <picture>
                                 <source srcset="img/Olive/design/IMG_design_arrow1_1x.png" media="(max-width:767px)">
                                 <img src="img/Olive/design/IMG_design_arrow1_2x.png" alt="Arrow">
                             </picture>
                         </div>
                     </div>
-                    <div class="row-flex reverse">
+                    <div class="row-flex reverse" id="option2">
                         <div class="column col-md-6">
                             <h4>Option 2</h4>
-                            <picture>
+                            <picture style="display: block; width: 66.6%; margin: auto;">
                                 <source srcset="img/Olive/design/IMG_design_opt2_1x.png" media="(max-width:767px)">
                                 <img src="img/Olive/design/IMG_design_opt2_2x.png" alt="Navigation Pattern Option 2">
                             </picture>
                             <p><span class="bold">pro</span> bottom navigation pattern in form of the health tree tamagotchi</p>
                             <p><span class="bold">contra</span> this would take a lot of precious space</p>
                         </div>
-                        <div class="column col-md-6 vertical-centered">
+                        <div class="column col-md-6 flex-center">
                             <picture>
                                 <source srcset="img/Olive/design/IMG_design_arrow2_1x.png" media="(max-width:767px)">
                                 <img src="img/Olive/design/IMG_design_arrow2_2x.png" alt="Arrow">
@@ -385,7 +399,7 @@
                             <p><span class="bold">pro</span> health tree as navigation pattern is in the heading and slideable for space saving purpose</p>
                             <p><span class="bold">contra</span> the navigation at the head would make it harder to reach</p>
                         </div>
-                        <div class="column col-md-6 vertical-centered">
+                        <div class="column col-md-6 flex-center">
                             <picture>
                                 <source srcset="img/Olive/design/IMG_design_arrow3_1x.png" media="(max-width:767px)">
                                 <img src="img/Olive/design/IMG_design_arrow3_2x.png" alt="Arrow">
@@ -396,7 +410,7 @@
                         <div class="half">
                             <h4>My Decision</h4>
                             <p>After weighing the pros and cons and consulting my course mentor, I decided to vary the third option. Bringing the health tree to the bottom would make it easy to reach. This would be the home button and every navigation would lead via the big health tree in the home screen. This would give the device a clear task flow and puts the tree in the center of attention.</p>
-                            <picture>
+                            <picture style="display: block; width: 66.6%; margin: auto;">
                                 <source srcset="img/Olive/design/IMG_design_decision_1x.png" media="(max-width:767px)">
                                 <img src="img/Olive/design/IMG_design_decision_2x.png" alt="Navigation Pattern Decision">
                             </picture>
@@ -441,7 +455,7 @@
                         <source srcset="img/Olive/design/IMG_design_mid-fi_1x.png" media="(max-width:767px)">
                         <img src="img/Olive/design/IMG_design_mid-fi_2x.png" alt="Mid-Fidelity Wireframes">
                     </picture>
-                    <a class="a project" href="https://www.figma.com/proto/W1Uf31GZxFdfyHppOYUn2Y/Prototype-OLIVE?node-id=0%3A1" target="_blank">Click here<br>to see<br>Mid-Fidelity Prototype</a>
+                    <a class="a project position" href="https://www.figma.com/proto/W1Uf31GZxFdfyHppOYUn2Y/Prototype-OLIVE?node-id=0%3A1" target="_blank">Click here<br>to see<br>Mid-Fidelity Prototype</a>
                 </div>
             </section>
             <section id="Test" class="project-bg">
@@ -490,7 +504,7 @@
                                 <p class="highlight-text">Hierarchiy of Education Header is disharmonic.</p>
                             </div>
                         </div>
-                        <div class="row highlight-bg-yellow">
+                        <div class="row highlight-bg-yellow big-pic">
                             <h4 class="highlight-heading">Conclusion</h4>
                             <p class="highlight-text">The usability test required 6 participants. The participants ideally were in the age range of 27-40 years old, have used a tamagotchi before and were located in Germany. Participants for the moderated remote tests were recruited from the personal network from the researcher by e-mail or a messenger. Participants for the moderated in-person tests were recruited with „Hallway Testing“.</p>
                         </div>
@@ -516,7 +530,7 @@
                             <p>By bringing the actual <span class="bold">home button to the head of screen</span> I went after the intuition of my participants. In the next step I reworked the task flows and was able to <span class="bold">remove the back button</span>, so the user only has the option to use the actual home button. This simplified the user flow immense and ensured a frictionless usability. By downsizing the button and bring it to the left corner of the screen I also won more spacing in the header, which allowed me to <span class="bold">add a heading with the category and icon</span>.</p>
                             <p>With the new iterations I reacted on issue 1 and issue 2 of the usability tests.</p>
                         </div>
-                        <div class="column climbing col-md-6 row-flex flex-center">
+                        <div class="column climbing col-md-6">
                             <div class="climbing top">
                                 <img class="climbing imagery" src="img/Olive/refine/IMG_refine_iteration_nav1_1x.png" alt="Reworked Navigation Pattern" class="iteration-imagery">   
                             </div>
@@ -531,7 +545,7 @@
                             <p>For the task to “follow a recommendation my participants communicated a insecurity about what actions need to be made.</p>
                             <p>As a solution for this issue I <span class="bold">redesigned the CTA button</span> and also <span class="bold">added a clear language</span> for the CTA.</p>
                         </div>
-                        <div class="column climbing col-md-6 row-flex flex-center low-gap">
+                        <div class="column climbing col-md-6">
                             <div class="climbing down">
                                 <img class="climbing imagery" src="img/Olive/refine/IMG_refine_iteration_cta1_1x.png" alt="Reworked CTA">
                             </div>
@@ -549,7 +563,7 @@
                             <p>Participants were using firstly the category slide which shows popular topics to find special content.</p>
                             <p>Eventhough this is not a problem, but I decided to create a more <span class="bold">equal color scheme</span> with the search bar and the slide option. This <span>showcases the hierarchy</span> of this page better.</p>
                         </div>
-                        <div class="column climbing col-md-6 row-flex flex-center low-gap">
+                        <div class="column climbing col-md-6">
                             <div class="climbing top">
                             <img class="climbing imagery" src="img/Olive/refine/IMG_refine_iteration_edu-header_1x.png" alt="Reworked Education Header">
                             </div>
@@ -602,7 +616,7 @@
                 </div>
                 <div class="container" id="design_documentation">
                         <h3>#1 Design Documentation</h3>
-                        <picture>
+                        <picture class="big-pic">
                             <source srcset="img/Olive/deliver/IMG_deliver_styleguide_1x.png" media="(max-width:767px)">
                             <img src="img/Olive/deliver/IMG_deliver_styleguide_2x.png" alt="Style Guide">
                         </picture>
@@ -613,21 +627,21 @@
                         <source srcset="img/Olive/deliver/IMG_deliver_designsystem_1x.png" media="(max-width:767px)">
                         <img src="img/Olive/deliver/IMG_deliver_designsystem_2x.png" alt="Design Language System">
                     </picture>
-                    <a class="a project" href="https://drive.google.com/file/d/1gzkxOZKEbR9IwHZKL6BXj6GOapOZYScv/view?usp=share_link" target="_blank">Click here to see full doument</a>
+                    <a class="a project position" href="https://drive.google.com/file/d/1gzkxOZKEbR9IwHZKL6BXj6GOapOZYScv/view?usp=share_link" target="_blank">Click here to see full doument</a>
                 </div>
                 <div class="container" id="final_prototype">
                     <h3>#3 Final High Fidelity Prototype</h3>
                     <div class="row-flex">
-                        <div class="column col-md-6">
+                        <div class="column col-md-6 centered">
                             <img class="final-prototype" src="img/Olive/deliver/IMG_deliver_final-mockup_1x.png" alt="Final Mockup">
                             <a class="a project priority position" href="https://www.figma.com/proto/hBhKV4eC49R9V9KOpUIj81/Prototype-OLIVE-3.0?page-id=323%3A14270&node-id=323-16321&starting-point-node-id=323%3A16321" target="_blank">Click here to see clickable prototype</a>
                         </div>
                         <div class="column col-md-6">
-                            <div>
-                                <div>
+                            <div style="display: flex; flex-direction: row; align-items: center;">
+                                <div style="width: 50%;">
                                     <p class="notes yellow" style="text-align: center;">Do you <br>remember Sandra?</p>
                                 </div>
-                                <div>
+                                <div style="width: 50%; max-width: 200px; rotate: 20deg;">
                                     <img src="img/Olive/deliver/IMG_deliver_finalsandra_1x.png" alt="Persona Sandra">
                                 </div>
                             </div>

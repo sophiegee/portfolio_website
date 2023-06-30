@@ -560,6 +560,24 @@ main {
 #hero.medium{
     display: none;
 }
+.written-notes {
+    width: 75%;
+    margin: 24px auto;
+}
+.written-notes h4 {
+    margin: 0;
+}
+.a.project.priority.position {
+    margin-top: -112px;
+    margin-left: 48px;
+}
+a.project.position {
+    margin-top: -96px;
+    margin-right: 60%;
+    margin-left: auto;
+    rotate: -20deg;
+}
+
 
 /*===============================
 Medium devices (768px and larger)
@@ -602,6 +620,7 @@ Medium devices (768px and larger)
         flex-direction: row;
         gap: 48px;
         padding: 48px;
+        margin: 48px auto;
     }
     .project-card .image-wrapper {
         margin: 0;
@@ -636,12 +655,16 @@ Medium devices (768px and larger)
     .col-md-6 {
         width: 50%;
     }
+    .col-md-8 {
+        width: 66.6%;
+    }
     .col-md-9 {
         width: 75%;
     }
     .big-pic {
+        display: block;
         width: 80%;
-        margin: 12px auto;
+        margin: 24px auto;
     }
     #contact p {
         max-width: 60vw;
@@ -658,11 +681,6 @@ Medium devices (768px and larger)
     .row-flex.low-gap {
         gap: 12px;
     }
-    .vertical-centered{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
     .gap-24 {
         gap: 24px;
     }
@@ -670,9 +688,18 @@ Medium devices (768px and larger)
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
+        align-items: center;
+    }
+    .vertical-centered {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .half {
         width: 50%;
+    }
+    #option2 {
+        margin: -148px 0;
     }
     #thankyou {
         padding: 128px 48px;
@@ -683,25 +710,11 @@ Medium devices (768px and larger)
     .container {
         padding: 48px;
     }
-    .climbing.top {
-        display: flex;
-        align-self: center;
-        margin-bottom: 100px;
-    }
-    .climbing.down{
-        display: flex;
-        align-self: center;
-        margin-top: 100px;
-    }
-    .climbing.center{
-        display: flex;
-        align-self: center;
-    }
-    .climbing.imagery {
-        height: 12em;
-    }
     .hero-text {
         text-align: right;
+    }
+    .row-flex.project-title {
+        margin: 0;
     }
 }
 /*=====================================

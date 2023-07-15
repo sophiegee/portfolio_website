@@ -380,16 +380,35 @@ nav > ul {
     margin-bottom: 0px;
     margin-top: 0;
 }
-nav > ul > li {
-    display: inline-block;
-}
 nav > ul > li > a {
     padding: 0 12px;
     display: inline-flex;
 }
-nav > ul > li:last-child a svg {
+nav > ul > li:nth-last-child(2) a svg {
     margin-left: 12px;
 }
+.navtoggle li:not(:last-child) {
+    display: none;
+}
+.navtoggle, .navtoggle.responsive {
+    position: relative;
+}
+.navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 4px;
+    padding: 0;
+}
+.navtoggle.responsive li {
+    display: block;
+    padding: 10px 0;
+    border-top: 2px solid #605b828d;
+}
+.navtoggle.responsive li:last-child  {
+    padding: 0 0 10px;
+    border-top: none;
+  }
+
 main {
     padding-top: 60px;
 }
@@ -613,6 +632,15 @@ Medium devices (768px and larger)
         width: auto;
         float: right;
         margin-top: 4px;
+    }
+    nav > ul > li {
+        display: inline-block;
+    }
+    .navtoggle li:not(:last-child) {
+        display: inline-block;
+    }
+    .navtoggle li:last-child {
+        display: none;
     }
 
     #hero.medium {

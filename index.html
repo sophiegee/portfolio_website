@@ -16,18 +16,18 @@
     <body id="home">
         <header>
             <div class="container">
-                <div class="row logo">
+                <div class="navtoggle" id="myNavtoggle">
                     <a href="index.html" class="a logo">SOPHIE LUCKE</a>
-                </div>
                 <nav>
                     <ul>
-                        <li><a href="#work">my work</a></li>
-                        <li><a href="#about">about me</a></li>
-                        <li><a href="files/SOPHIE_LUCKE_LEBENSLAUF.pdf" target="_blank">resume</a></li>
-                        <li><a href="#contact">contact me <svg width="24" height="24" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <li><a href="#work" onclick="menuToggle()">my work</a></li>
+                        <li><a href="#about" onclick="menuToggle()">about me</a></li>
+                        <li><a href="files/SOPHIE_LUCKE_LEBENSLAUF.pdf" target="_blank" onclick="menuToggle()">resume</a></li>
+                        <li><a href="#contact" onclick="menuToggle()">contact me <svg width="24" height="24" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M6.66665 6.66663H33.3333C35.1666 6.66663 36.6666 8.16663 36.6666 9.99996V30C36.6666 31.8333 35.1666 33.3333 33.3333 33.3333H6.66665C4.83331 33.3333 3.33331 31.8333 3.33331 30V9.99996C3.33331 8.16663 4.83331 6.66663 6.66665 6.66663Z" stroke="#423C6A" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M36.6666 10L20 21.6667L3.33331 10" stroke="#423C6A" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg></a></li>
+                        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 12H21" stroke="#423C6A" stroke-width="2.502" stroke-linecap="round" stroke-linejoin="round"/><path d="M3 6H21" stroke="#423C6A" stroke-width="2.502" stroke-linecap="round" stroke-linejoin="round"/><path d="M3 18H21" stroke="#423C6A" stroke-width="2.502" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
                     </ul>
                 </nav>
             </div>
@@ -794,6 +794,7 @@
                 <p class="footline">© Sophie Lucke 2023 I <a href="impressum.html" class="a impressum">Impressum</a></p>
             </div>
         </footer>
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
         <script src="js/scripts.js"></script>
     </body>
 </html>

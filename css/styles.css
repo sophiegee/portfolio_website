@@ -27,52 +27,52 @@ header {
     z-index: 2;
 }
 
-    h1 {
-        font-family: 'Anton', sans-serif;
-        font-size: 40px;
-        line-height: 1.5;
-        letter-spacing: 10px;
-        color: #423c6a;
-        margin: 0;
-        text-align: center;
-    }
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: 10px;
+    color: #423c6a;
+    margin: 0;
+    text-align: center;
+}
 
-    h2 {
-        font-family: 'Anton', sans-serif;
-        font-size: 48px;
-        line-height: 1.5;
-        letter-spacing: 3px;
-        color: #423c6a;
-        margin: 0px 0px 12px;
-        text-align: center;
-    }
+h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 48px;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    color: #423c6a;
+    margin: 0px 0px 12px;
+    text-align: center;
+}
 
-    h3 {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        line-height: 1.5;
-        letter-spacing: 2px;
-        font-weight: 600;
-        color: #423c6a;
-        margin: 0;
-    }
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #423c6a;
+    margin: 0;
+}
 
-    p {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 16px;
-        line-height: 1.25;
-        letter-spacing: 2px;
-        font-weight: 400;
-        color: #423c6a;
-    }
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: #423c6a;
+}
 
 .tagline {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 14px;
-        letter-spacing: 2px;
-        font-weight: 200;
-        color: #605b82;
-        margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 200;
+    color: #605b82;
+    margin: 0;
 }
 
 .intro-undertitle {
@@ -142,21 +142,21 @@ header {
 
 .dark-bg h1 {
     font-family: 'Anton', sans-serif;
-        font-size: 48px;
-        line-height: 1.5;
-        letter-spacing: 3px;
-        color: #f6f2f2;
-        margin: 0px 0px 12px;
+    font-size: 48px;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    color: #f6f2f2;
+    margin: 0px 0px 12px;
 }
 
 .dark-bg h2 {
     font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        line-height: 1.5;
-        letter-spacing: 2px;
-        font-weight: 600;
-        color: #f6f2f2;
-        margin: 0;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #f6f2f2;
+    margin: 0;
 }
 
 .dark-bg p {
@@ -178,11 +178,13 @@ header {
     color: #f6f2f2;
 }
 
-#about, #contact {
+#about,
+#contact {
     background: #605b82;
 }
 
-.text-ultralight h2, .text-ultralight p {
+.text-ultralight h2,
+.text-ultralight p {
     color: #f6f2f2;
 }
 
@@ -265,7 +267,8 @@ a {
     text-decoration: none;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
     font-size: 16px;
     text-decoration: underline;
 }
@@ -337,7 +340,11 @@ a.project {
     height: 150px;
     border-radius: 100%;
     display: flex;
-    background-image: radial-gradient(circle farthest-corner at 0% 0%, #b6bba3 45%, #c1c7de);
+    background-image: radial-gradient(
+        circle farthest-corner at 0% 0%,
+        #b6bba3 45%,
+        #c1c7de
+    );
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -349,7 +356,11 @@ a.project {
 }
 
 a.project:hover {
-    background-image: radial-gradient(circle farthest-corner at 0% 0%, #98a076 45%, #a6adc9);
+    background-image: radial-gradient(
+        circle farthest-corner at 0% 0%,
+        #98a076 45%,
+        #a6adc9
+    );
     text-decoration: none;
 }
 
@@ -358,11 +369,19 @@ a.project:active {
 }
 
 a.project.priority {
-    background-image: radial-gradient(circle farthest-corner at 0% 0%, #9da971 45%, #f1c27d);
+    background-image: radial-gradient(
+        circle farthest-corner at 0% 0%,
+        #9da971 45%,
+        #f1c27d
+    );
 }
 
 a.project.priority:hover {
-    background-image: radial-gradient(circle farthest-corner at 0% 0%, #b0bd82 45%, #f7cd8e);
+    background-image: radial-gradient(
+        circle farthest-corner at 0% 0%,
+        #b0bd82 45%,
+        #f7cd8e
+    );
 }
 
 .footline {
@@ -646,21 +665,21 @@ main {
     margin-left: 6em;
 }
 
-#hero.small h1,
-#hero.small p {
+#hero-small h1,
+#hero-small p {
     margin: 24px;
 }
 
-#hero.small h1 {
+#hero-small h1 {
     font-size: 36px;
     letter-spacing: 8px;
 }
 
-#hero.small p {
+#hero-small p {
     font-size: 22px;
 }
 
-#hero.medium {
+#hero-medium {
     display: none;
 }
 
@@ -712,16 +731,16 @@ Medium devices (768px and larger)
         display: none;
     }
 
-    #hero.medium {
+    #hero-medium {
         display: block;
     }
 
-    #hero.small {
+    #hero-small {
         display: none;
     }
 
     .sketch-bg {
-        background-image: url("../img/home/IMG_notebook_2x.png");
+        background-image: url('../img/home/IMG_notebook_2x.png');
         background-size: cover;
     }
 
@@ -768,7 +787,7 @@ Medium devices (768px and larger)
         flex-direction: row-reverse;
     }
 
-    .project-card.reverse .image-wrapper{
+    .project-card.reverse .image-wrapper {
         max-width: none;
         width: 33.3%;
         margin: 0;
@@ -854,7 +873,7 @@ Medium devices (768px and larger)
         flex-direction: column;
         justify-content: center;
     }
-    
+
     .half {
         width: 50%;
     }
@@ -882,7 +901,7 @@ Medium devices (768px and larger)
 /* ====================================
 Extra Large devices (1024px and larger)
 ==================================== */
-@media only screen and (min-width:1024px) {
+@media only screen and (min-width: 1024px) {
     .container {
         max-width: 1000px;
         margin: auto;
@@ -900,31 +919,42 @@ Extra Large devices (1024px and larger)
 Animation
 ======= */
 @keyframes color-change {
-    from {fill: #edc655;}
-    to {fill: #f76414;}
+    from {
+        fill: #edc655;
+    }
+    to {
+        fill: #f76414;
+    }
 }
 .sun {
     animation: 4s color-change infinite alternate linear;
 }
 
 @keyframes cloud-move {
-from {transform: translate(0,50px);}
-  to {transform: translate(500px,50px);}
+    from {
+        transform: translate(0, 50px);
+    }
+    to {
+        transform: translate(500px, 50px);
+    }
 }
 .cloud-front {
     animation-duration: 20s;
     animation-name: cloud-move;
-    animation-iteration-count:  infinite;
+    animation-iteration-count: infinite;
     animation-timing-function: linear;
-  }
+}
 @keyframes cloud-move-reverse {
-    from {transform: translate(446px,48px);}
-    to {transform: translate(200px, 48px);}
+    from {
+        transform: translate(446px, 48px);
+    }
+    to {
+        transform: translate(200px, 48px);
+    }
 }
 .cloud-back {
     animation-duration: 20s;
     animation-name: cloud-move-reverse;
-    animation-iteration-count:  infinite;
+    animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
-

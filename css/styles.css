@@ -615,6 +615,10 @@ main {
     right: 10%;
 }
 
+#mockups img { 
+    width: auto
+}
+
 .row-overflow {
     display: flex;
     overflow-x: auto;
